@@ -2,8 +2,8 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack --config webpack.prod.js",
-    "start-local": "webpack-dev-server --env.es6 --progress --hot --port=80",
-    "start-local-es5": "webpack-dev-server --env.local --progress --hot --open"
+    "start-local": "webpack-dev-server --env.es6 --progress --hot --open",
+    "start-local-es5": "webpack-dev-server --env.local --port=80"
   },
   "dependencies": {
     "clean-webpack-plugin": "^0.1.19",
