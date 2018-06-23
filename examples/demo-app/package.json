@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "start": "webpack-dev-server --port=80",
+    "start": "webpack-dev-server --open",
     "build": "webpack --config webpack.prod.js",
-    "start-local": "webpack-dev-server --env.es6 --progress --hot --open",
+    "start-local": "webpack-dev-server --env.es6 --progress --hot --port=80",
     "start-local-es5": "webpack-dev-server --env.local --progress --hot --open"
   },
   "dependencies": {
